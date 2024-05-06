@@ -1,0 +1,124 @@
+body{
+    width:100% ;
+    height: 180vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    margin-right: 10px;
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+}
+.menu li a:hover{
+    background-color: #5BC241;
+    color: #FFFF;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+main{
+    background-color: #00C3A5;
+   
+    
+}
+    select {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+    }
+    .img-principal{
+        width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+
+    }
+    
+.consulta{
+    padding: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.consulta2{
+    display: flex;
+    flex-direction: column;
+}
+.ASconsulta{
+    color: #FFFF;
+    padding: 20px;
+    margin-top: 70px;
+    font-size: 50px;
+}
+.selecao{
+    padding: 0.2em;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    font-size: 20px;
+    
+}
+.bnt{
+    background-color: #3D83D0;
+    color: #0000;
+    border: none;
+    width: 75px;
+    height: 25px;
+    border-radius: 7px;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+
+.proficionais{
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 500;
+}
+.profissionais-container {
+    display: flex;
+    justify-content: space-between; /* Distribui o espaço entre os elementos */
+}
+
+.profissional-card {
+    width: calc(20% - 20px); /* Ajusta a largura para ocupar 1/4 do espaço disponível */
+    height: 20vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    background-color: #DFE6E5;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+
+
+.icone {
+    display: flex;
+    margin-left: 2px;
+}
+
+.informacoes p {
+    padding: 1px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+
